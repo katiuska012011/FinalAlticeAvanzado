@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark">
+
+
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="X"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/cercle"
+        android:padding="3dp"
+        android:layout_gravity="end"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        
+        <ImageView
+            android:id="@+id/imgSubir"
+            android:layout_width="300dp"
+            android:layout_height="190dp"
+            android:src="@drawable/woman"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/nombreAgre"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="10dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@color/white"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/descripcionAgre"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="10dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:hint="Descripcion"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"
+            android:padding="5dp" />
+        <EditText
+            android:id="@+id/ubicacionAgre"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="10dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:hint="Ubicacion"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"
+            android:padding="5dp" />
+
+
+
+        <Button
+            android:id="@+id/btnSubirImg"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:text="Seleccionar Imagen"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/btnsubir"/>
+
+        <Button
+            android:id="@+id/btnPublicarHis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Publicar"
+            android:textStyle="bold"
+            android:background="@drawable/buttonstylenormal"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

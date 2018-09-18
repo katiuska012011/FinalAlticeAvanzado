@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "827076240053",
+    "firebase_url": "https://finalavanzadoaltice.firebaseio.com",
+    "project_id": "finalavanzadoaltice",
+    "storage_bucket": "finalavanzadoaltice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827076240053:android:d3970c9a4561afc2",
+        "android_client_info": {
+          "package_name": "com.example.katiuskagonzalez.finalaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827076240053-k3gaud1kddq3ueav6lppfkfemr1rc6mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3kLU-CBe3fOSNTV1b96sfObCH4CmdVg4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
